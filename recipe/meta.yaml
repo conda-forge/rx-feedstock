@@ -1,6 +1,6 @@
 {% set name = "Rx" %}
-{% set version = "1.6.1" %}
-{% set sha256 = "13a1d8d9e252625c173dc795471e614eadfe1cf40ffc684e08b8fff0d9748c23" %}
+{% set version = "3.0.0" %}
+{% set sha256 = "69e7dc76a4391910972f20316f9ccd4664b9694f21dace5a16519d56869e5d35" %}
 
 package:
   name: {{ name|lower }}
