@@ -1,5 +1,5 @@
 {% set name = "Rx" %}
-{% set version = "3.0.1" %}
+{% set version = "3.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: c7d168618e3cec35fda9c9c8b5d7f966739df4b1a99b315eae1fc2d7d69e2512
+  sha256: aaf409848e24dd514926eb8467e2764762bfd258325717fca4628d32d8721252
 
 build:
   noarch: python
@@ -36,7 +36,7 @@ about:
   license: Apache-2.0
   license_family: Apache
   license_file: LICENSE
-  summary: 'Reactive Extensions (Rx) for Python'
+  summary: Reactive Extensions (Rx) for Python
   description: |
     A library for composing asynchronous and event-based programs using
     observable collections and query operator functions in Python
