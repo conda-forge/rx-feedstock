@@ -23,6 +23,8 @@ requirements:
     - python >=3.6
 
 test:
+  requires:
+    - pip
   imports:
     - rx
     - rx.disposable
@@ -30,6 +32,8 @@ test:
     - rx.scheduler
     - rx.subject
     - rx.testing
+  commands:
+    - pip check
 
 about:
   home: https://github.com/ReactiveX/RxPY
